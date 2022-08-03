@@ -2,12 +2,12 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 Vue.use(VueRouter)
 
-import ExampleComponent from './../components/ExampleComponent'
+import Home from './../components/public/Home.vue'
 
 
 
 const routes = [
-    { path: '/test', component: ExampleComponent },
+    { path: '/', component: Home },
 ]
 
 

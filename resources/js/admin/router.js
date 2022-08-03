@@ -2,12 +2,12 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 Vue.use(VueRouter)
 
-import ExampleComponent from './../components/ExampleComponent'
+import adminMaster from './../components/admin/adminMaster.vue'
 
 
 
 const routes = [
-    { path: '/admin/test', component: ExampleComponent },
+    { path: '/admin', component: adminMaster },
 ]
 
 
