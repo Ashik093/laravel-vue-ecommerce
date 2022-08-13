@@ -1,6 +1,8 @@
 require('./bootstrap');
 
 window.Vue = require('vue').default;
+
+
 import router from './public/router';
 
 Vue.component('public-master', require('./components/public/PublicMaster.vue').default);
@@ -8,5 +10,6 @@ Vue.component('public-master', require('./components/public/PublicMaster.vue').d
 
 const app = new Vue({
     el: '#app',
-    router
+    router,
+
 });
